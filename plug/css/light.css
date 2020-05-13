@@ -1,0 +1,54 @@
+body {
+    background-color: #e4e3ef;
+    color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #435fe0 0%, #8039ca 100%);
+    box-shadow: 0 0 30px #dfdff9;
+    border-bottom: 0.5px solid #ddddf5;
+}
+.navbar-light .navbar-brand {
+  color: rgb(158, 158, 158);
+}
+.navbar-expand-lg {
+  background: linear-gradient(135deg, #435fe0 0%, #8039ca 100%);
+}
+
+/*Total*/
+.home-totals .total-cases {
+	color: #d5a700;
+}
+.home-totals .serious-cirtical {
+	color: #DE0694;
+}
+.home-totals .total-deaths {
+	color: #d50300;
+}
+.home-totals .total-recovered {
+	color: #3ecd00;
+}
+
+/* Table */
+.table-search {
+    background: #18181a;
+    border: 1px solid #2e2e32;
+}
+thead {
+  	position: sticky !important;
+  	top: 0;
+  	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+.corona tr td:nth-child(2) {
+	color: #d5a700;
+}
+table.table th, table.table td {
+	color: #0074e9;
+}
+.table thead th {
+    border-bottom: 2px solid #1d262b;
+}
+table.table-hover tbody tr:hover {
+    background-color: #353b48;
+}
